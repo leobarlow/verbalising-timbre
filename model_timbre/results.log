@@ -1,0 +1,73 @@
+> python test_model.py -train ..\data\all\init_train.json -valid ..\data\all\init_valid.json -test ..\data\all\init_test.json
+
+Dataset: Validation
+Dataset size = 90
+Average error for brightness = 1.11
+RMS error for brightness = 1.63
+true, pred = 3 3
+true, pred = 2 3
+true, pred = 4 4
+true, pred = 2 3
+true, pred = 4 4
+Average error for fullness = 1.18
+RMS error for fullness = 1.57
+true, pred = 5 5
+true, pred = 5 4
+true, pred = 6 5
+true, pred = 3 4
+true, pred = 7 5
+Average error for softness = 1.13
+RMS error for softness = 1.71
+true, pred = 2 2
+true, pred = 2 3
+true, pred = 1 2
+true, pred = 3 3
+true, pred = 4 2
+brightness [ 2  4  9 13 19 19  8  7  4  5]
+Probability of exact brightness result = 0.22
+Probability of within +/-1 brightness result = 0.58
+Probability of within +/-2 brightness result = 0.78
+fullness [10  2 10 10 12 21  7 12  4  2]
+Probability of exact fullness result = 0.17
+Probability of within +/-1 fullness result = 0.64
+Probability of within +/-2 fullness result = 0.91
+softness [11  9 13  5  8  8 14 14  3  5]
+Probability of exact softness result = 0.31
+Probability of within +/-1 softness result = 0.69
+Probability of within +/-2 softness result = 0.90
+
+Dataset: Test
+Dataset size = 90
+Average error for brightness = 1.00
+RMS error for brightness = 1.37
+true, pred = 5 5
+true, pred = 5 5
+true, pred = 5 5
+true, pred = 5 5
+true, pred = 7 5
+Average error for fullness = 1.36
+RMS error for fullness = 1.99
+true, pred = 6 5
+true, pred = 6 6
+true, pred = 7 7
+true, pred = 9 6
+true, pred = 6 6
+Average error for softness = 1.24
+RMS error for softness = 1.96
+true, pred = 2 2
+true, pred = 1 0
+true, pred = 3 0
+true, pred = 6 0
+true, pred = 6 4
+brightness [ 5  3  7  8 18 22  6 11  6  4]
+Probability of exact brightness result = 0.25
+Probability of within +/-1 brightness result = 0.66
+Probability of within +/-2 brightness result = 0.95
+fullness [ 9 10  9  9 18 10 12  4  6  3]
+Probability of exact fullness result = 0.26
+Probability of within +/-1 fullness result = 0.61
+Probability of within +/-2 fullness result = 0.80
+softness [12  6  4  6 12 18 16  7  8  1]
+Probability of exact softness result = 0.40
+Probability of within +/-1 softness result = 0.76
+Probability of within +/-2 softness result = 0.87

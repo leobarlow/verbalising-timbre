@@ -1,0 +1,14 @@
+> python check_evaluations.py -att1 brightness -att2 softness -att3 fullness -total ..\data\all\eval_total.json --sample ..\data\all\sample_eval_total.json
+
+Mean and standard deviation of brightness = 4.450, 2.063
+Mean and standard deviation of softness = 4.124, 2.581
+Mean and standard deviation of fullness = 4.103, 2.296
+Attribute brightness reliability = 0.910
+Attribute softness reliability = 0.958
+Attribute fullness reliability = 0.924
+Shapiro-wilk normality coefficient for brightness = 0.966 (p = 1.4331873361694836e-13)
+Shapiro-wilk normality coefficient for softness = 0.945 (p = 7.469507932983457e-18)
+Shapiro-wilk normality coefficient for fullness = 0.965 (p = 8.563631845748959e-14)
+Spearman's correlation for brightness and softness = -0.018 (p = 0.5812033075432718)
+Spearman's correlation for brightness and fullness = 0.282 (p = 5.775763016171758e-18)
+Spearman's correlation for softness and fullness = -0.293 (p = 2.6138636441879386e-19)
