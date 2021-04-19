@@ -1,0 +1,58 @@
+{
+  "guitar_acoustic_001-082-050": {
+      "note": 16629,
+      "sample_rate": 16000,
+      "pitch": 82,
+      "instrument_source": 0,
+      "instrument_family_str": "guitar",
+      "instrument_str": "guitar_acoustic_001",
+      "note_str": "guitar_acoustic_001-082-050",
+      "qualities_str": [
+          "percussive"
+      ],
+      "instrument_source_str": "acoustic",
+      "velocity": 50,
+      "instrument_family": 3,
+      "instrument": 39,
+      "qualities": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+      ]
+  },
+  "bass_synthetic_120-108-050": {
+      "note": 168243,
+      "sample_rate": 16000,
+      "pitch": 108,
+      "instrument_source": 2,
+      "instrument_family_str": "bass",
+      "instrument_str": "bass_synthetic_120",
+      "note_str": "bass_synthetic_120-108-050",
+      "qualities_str": [
+          "percussive"
+      ],
+      "instrument_source_str": "synthetic",
+      "velocity": 50,
+      "instrument_family": 0,
+      "instrument": 881,
+      "qualities": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+      ]
+  }
+}

@@ -1,0 +1,111 @@
+% This file was created by tikzplotlib v0.9.8.
+\begin{tikzpicture}
+
+\begin{groupplot}[group style={group size=2 by 2}]
+\nextgroupplot[
+tick align=outside,
+tick pos=left,
+title={Noise},
+x grid style={white!69.0196078431373!black},
+xmin=0.004, xmax=1.996,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ylabel={Frequency (Hz)},
+ymin=0, ymax=8000,
+ytick style={color=black}
+]
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0.004, xmax=1.996, ymin=0, ymax=8000] {augmentation-000.png};
+
+\nextgroupplot[
+tick align=outside,
+tick pos=left,
+title={Shifting},
+x grid style={white!69.0196078431373!black},
+xmin=0.004, xmax=1.996,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ymin=0, ymax=8000,
+ytick style={color=black}
+]
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0.004, xmax=1.996, ymin=0, ymax=8000] {augmentation-001.png};
+
+\nextgroupplot[
+tick align=outside,
+tick pos=left,
+title={Squashing},
+x grid style={white!69.0196078431373!black},
+xlabel={Time (s)},
+xmin=0.004, xmax=1.996,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ylabel={Frequency (Hz)},
+ymin=0, ymax=8000,
+ytick style={color=black}
+]
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0.004, xmax=1.996, ymin=0, ymax=8000] {augmentation-002.png};
+
+\nextgroupplot[
+colorbar,
+colorbar style={ytick={-160,-140,-120,-100,-80,-60,-40},yticklabels={
+  \ensuremath{-}160,
+  \ensuremath{-}140,
+  \ensuremath{-}120,
+  \ensuremath{-}100,
+  \ensuremath{-}80,
+  \ensuremath{-}60,
+  \ensuremath{-}40
+},ylabel={Intensity (dB)}},
+colormap/blackwhite,
+point meta max=-37.9889962593321,
+point meta min=-176.592385022148,
+tick align=outside,
+tick pos=left,
+title={Stretching},
+x grid style={white!69.0196078431373!black},
+xlabel={Time (s)},
+xmin=0.004, xmax=1.996,
+xtick style={color=black},
+y grid style={white!69.0196078431373!black},
+ymin=0, ymax=8000,
+ytick style={color=black}
+]
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0.004, xmax=1.996, ymin=0, ymax=8000] {augmentation-003.png};
+\end{groupplot}
+
+\begin{axis}[
+axis y line=right,
+tick align=outside,
+xmin=-176.592385022148, xmax=-37.9889962593321,
+xtick pos=left,
+y grid style={white!69.0196078431373!black},
+ylabel={Intensity (dB)},
+ymin=-176.592385022148, ymax=-37.9889962593321,
+ytick pos=right,
+ytick style={color=black},
+ytick={-160,-140,-120,-100,-80,-60,-40},
+yticklabel style={anchor=west},
+yticklabels={
+  \ensuremath{-}160,
+  \ensuremath{-}140,
+  \ensuremath{-}120,
+  \ensuremath{-}100,
+  \ensuremath{-}80,
+  \ensuremath{-}60,
+  \ensuremath{-}40
+}
+]
+\path [draw=white, fill=white, line width=0.004pt]
+(axis cs:-176.592385022148,-176.592385022148)
+--(axis cs:-176.592385022148,-176.050965534794)
+--(axis cs:-176.592385022148,-38.5304157466869)
+--(axis cs:-176.592385022148,-37.9889962593321)
+--(axis cs:-37.9889962593321,-37.9889962593321)
+--(axis cs:-37.9889962593321,-38.5304157466869)
+--(axis cs:-37.9889962593321,-176.050965534794)
+--(axis cs:-37.9889962593321,-176.592385022148)
+--(axis cs:-37.9889962593321,-176.592385022148)
+--cycle;
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=-176.592385022148, xmax=-37.9889962593321, ymin=-176.592385022148, ymax=-37.9889962593321] {augmentation-004.png};
+\end{axis}
+
+\end{tikzpicture}

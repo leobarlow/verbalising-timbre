@@ -1,0 +1,27 @@
+% This file was created by tikzplotlib v0.9.8.
+\begin{tikzpicture}
+
+\begin{axis}[
+colorbar,
+colorbar style={ylabel={Log intensity}},
+colormap/blackwhite,
+point meta max=255,
+point meta min=123.098587326191,
+tick align=outside,
+tick pos=left,
+x grid style={white!69.0196078431373!black},
+xlabel={Time (s)},
+xmin=-0.5, xmax=18.5,
+xtick style={color=black},
+xtick={-2.5,0,2.5,5,7.5,10,12.5,15,17.5,20},
+xticklabels={\ensuremath{-}2.5,0.0,2.5,5.0,7.5,10.0,12.5,15.0,17.5,20.0},
+y grid style={white!69.0196078431373!black},
+ymin=-0.5, ymax=19.5,
+ytick style={color=black},
+ytick={-2.5,0,2.5,5,7.5,10,12.5,15,17.5,20},
+yticklabels={\ensuremath{-}2.5,0.0,2.5,5.0,7.5,10.0,12.5,15.0,17.5,20.0}
+]
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=-0.5, xmax=18.5, ymin=-0.5, ymax=19.5] {features-000.png};
+\end{axis}
+
+\end{tikzpicture}

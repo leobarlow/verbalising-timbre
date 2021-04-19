@@ -1,0 +1,13 @@
+argparse
+simpleaudio
+matplotlib
+scipy
+pyrubberband
+tikzplotlib
+soundfile
+numpy
+python_speech_features
+librosa
+sklearn
+tensorflow
+keras

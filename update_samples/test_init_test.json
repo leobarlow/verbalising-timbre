@@ -1,0 +1,56 @@
+{
+  "organ_electronic_011-079-075": {
+    "note": 244275,
+    "sample_rate": 16000,
+    "pitch": 79,
+    "instrument_source": 1,
+    "instrument_family_str": "organ",
+    "instrument_str": "organ_electronic_011",
+    "note_str": "organ_electronic_011-079-075",
+    "qualities_str": [
+        "bright"
+    ],
+    "instrument_source_str": "electronic",
+    "velocity": 100,
+    "instrument_family": 6,
+    "instrument": 188,
+    "qualities": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+  },
+  "keyboard_electronic_089-044-100": {
+    "note": 282051,
+    "sample_rate": 16000,
+    "pitch": 79,
+    "instrument_source": 1,
+    "instrument_family_str": "keyboard",
+    "instrument_str": "keyboard_electronic_089",
+    "note_str": "keyboard_electronic_089-044-100",
+    "qualities_str": [],
+    "instrument_source_str": "electronic",
+    "velocity": 100,
+    "instrument_family": 4,
+    "instrument": 877,
+    "qualities": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+  }
+}

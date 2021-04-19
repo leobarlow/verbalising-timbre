@@ -1,0 +1,425 @@
+{
+  "guitar_acoustic_001-082-050": {
+    "note": 16629,
+    "sample_rate": 16000,
+    "pitch": 82,
+    "instrument_source": 0,
+    "instrument_family_str": "guitar",
+    "instrument_str": "guitar_acoustic_001",
+    "note_str": "guitar_acoustic_001-082-050",
+    "qualities_str": [
+      "percussive"
+    ],
+    "instrument_source_str": "acoustic",
+    "velocity": 50,
+    "instrument_family": 3,
+    "instrument": 39,
+    "qualities": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "evaluations": {
+      "bright": 5
+    }
+  },
+  "bass_synthetic_120-108-050": {
+    "note": 168243,
+    "sample_rate": 16000,
+    "pitch": 108,
+    "instrument_source": 2,
+    "instrument_family_str": "bass",
+    "instrument_str": "bass_synthetic_120",
+    "note_str": "bass_synthetic_120-108-050",
+    "qualities_str": [
+      "percussive"
+    ],
+    "instrument_source_str": "synthetic",
+    "velocity": 50,
+    "instrument_family": 0,
+    "instrument": 881,
+    "qualities": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "evaluations": {
+      "bright": 3
+    }
+  },
+  "organ_electronic_120-050-127": {
+    "note": 88495,
+    "sample_rate": 16000,
+    "pitch": 79,
+    "instrument_source": 1,
+    "instrument_family_str": "organ",
+    "instrument_str": "organ_electronic_120",
+    "note_str": "organ_electronic_120-050-127",
+    "qualities_str": [],
+    "instrument_source_str": "electronic",
+    "velocity": 127,
+    "instrument_family": 6,
+    "instrument": 979,
+    "qualities": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "evaluations": {
+      "bright": 2
+    }
+  },
+  "guitar_electronic_021-026-025": {
+    "note": 146382,
+    "sample_rate": 16000,
+    "pitch": 79,
+    "instrument_source": 1,
+    "instrument_family_str": "guitar",
+    "instrument_str": "guitar_electronic_021",
+    "note_str": "guitar_electronic_021-026-025",
+    "qualities_str": [
+      "fast_decay",
+      "percussive"
+    ],
+    "instrument_source_str": "electronic",
+    "velocity": 100,
+    "instrument_family": 3,
+    "instrument": 346,
+    "qualities": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "evaluations": {
+      "bright": 1
+    }
+  },
+  "organ_electronic_011-079-075": {
+    "note": 244275,
+    "sample_rate": 16000,
+    "pitch": 79,
+    "instrument_source": 1,
+    "instrument_family_str": "organ",
+    "instrument_str": "organ_electronic_011",
+    "note_str": "organ_electronic_011-079-075",
+    "qualities_str": [
+      "bright"
+    ],
+    "instrument_source_str": "electronic",
+    "velocity": 100,
+    "instrument_family": 6,
+    "instrument": 188,
+    "qualities": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "evaluations": {
+      "bright": 4
+    }
+  },
+  "keyboard_electronic_089-044-100": {
+    "note": 282051,
+    "sample_rate": 16000,
+    "pitch": 79,
+    "instrument_source": 1,
+    "instrument_family_str": "keyboard",
+    "instrument_str": "keyboard_electronic_089",
+    "note_str": "keyboard_electronic_089-044-100",
+    "qualities_str": [],
+    "instrument_source_str": "electronic",
+    "velocity": 100,
+    "instrument_family": 4,
+    "instrument": 877,
+    "qualities": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "evaluations": {
+      "bright": 1
+    }
+  },
+  "guitar_acoustic_001-082-050_noise_0.50": {
+    "source": "guitar_acoustic_001-082-050",
+    "variation": "noise",
+    "interval": 0.5
+  },
+  "guitar_acoustic_001-082-050_noise_1.00": {
+    "source": "guitar_acoustic_001-082-050",
+    "variation": "noise",
+    "interval": 1.0
+  },
+  "bass_synthetic_120-108-050_noise_0.50": {
+    "source": "bass_synthetic_120-108-050",
+    "variation": "noise",
+    "interval": 0.5
+  },
+  "bass_synthetic_120-108-050_noise_1.00": {
+    "source": "bass_synthetic_120-108-050",
+    "variation": "noise",
+    "interval": 1.0
+  },
+  "organ_electronic_120-050-127_noise_0.50": {
+    "source": "organ_electronic_120-050-127",
+    "variation": "noise",
+    "interval": 0.5
+  },
+  "organ_electronic_120-050-127_noise_1.00": {
+    "source": "organ_electronic_120-050-127",
+    "variation": "noise",
+    "interval": 1.0
+  },
+  "guitar_electronic_021-026-025_noise_0.50": {
+    "source": "guitar_electronic_021-026-025",
+    "variation": "noise",
+    "interval": 0.5
+  },
+  "guitar_electronic_021-026-025_noise_1.00": {
+    "source": "guitar_electronic_021-026-025",
+    "variation": "noise",
+    "interval": 1.0
+  },
+  "organ_electronic_011-079-075_noise_0.50": {
+    "source": "organ_electronic_011-079-075",
+    "variation": "noise",
+    "interval": 0.5
+  },
+  "organ_electronic_011-079-075_noise_1.00": {
+    "source": "organ_electronic_011-079-075",
+    "variation": "noise",
+    "interval": 1.0
+  },
+  "keyboard_electronic_089-044-100_noise_0.50": {
+    "source": "keyboard_electronic_089-044-100",
+    "variation": "noise",
+    "interval": 0.5
+  },
+  "keyboard_electronic_089-044-100_noise_1.00": {
+    "source": "keyboard_electronic_089-044-100",
+    "variation": "noise",
+    "interval": 1.0
+  },
+  "guitar_acoustic_001-082-050_shift_01": {
+    "source": "guitar_acoustic_001-082-050",
+    "variation": "shift",
+    "interval": 1
+  },
+  "guitar_acoustic_001-082-050_shift_02": {
+    "source": "guitar_acoustic_001-082-050",
+    "variation": "shift",
+    "interval": 2
+  },
+  "bass_synthetic_120-108-050_shift_01": {
+    "source": "bass_synthetic_120-108-050",
+    "variation": "shift",
+    "interval": 1
+  },
+  "bass_synthetic_120-108-050_shift_02": {
+    "source": "bass_synthetic_120-108-050",
+    "variation": "shift",
+    "interval": 2
+  },
+  "organ_electronic_120-050-127_shift_01": {
+    "source": "organ_electronic_120-050-127",
+    "variation": "shift",
+    "interval": 1
+  },
+  "organ_electronic_120-050-127_shift_02": {
+    "source": "organ_electronic_120-050-127",
+    "variation": "shift",
+    "interval": 2
+  },
+  "guitar_electronic_021-026-025_shift_01": {
+    "source": "guitar_electronic_021-026-025",
+    "variation": "shift",
+    "interval": 1
+  },
+  "guitar_electronic_021-026-025_shift_02": {
+    "source": "guitar_electronic_021-026-025",
+    "variation": "shift",
+    "interval": 2
+  },
+  "organ_electronic_011-079-075_shift_01": {
+    "source": "organ_electronic_011-079-075",
+    "variation": "shift",
+    "interval": 1
+  },
+  "organ_electronic_011-079-075_shift_02": {
+    "source": "organ_electronic_011-079-075",
+    "variation": "shift",
+    "interval": 2
+  },
+  "keyboard_electronic_089-044-100_shift_01": {
+    "source": "keyboard_electronic_089-044-100",
+    "variation": "shift",
+    "interval": 1
+  },
+  "keyboard_electronic_089-044-100_shift_02": {
+    "source": "keyboard_electronic_089-044-100",
+    "variation": "shift",
+    "interval": 2
+  },
+  "guitar_acoustic_001-082-050_stretch_0.50": {
+    "source": "guitar_acoustic_001-082-050",
+    "variation": "stretch",
+    "interval": 0.5
+  },
+  "guitar_acoustic_001-082-050_stretch_1.00": {
+    "source": "guitar_acoustic_001-082-050",
+    "variation": "stretch",
+    "interval": 1.0
+  },
+  "bass_synthetic_120-108-050_stretch_0.50": {
+    "source": "bass_synthetic_120-108-050",
+    "variation": "stretch",
+    "interval": 0.5
+  },
+  "bass_synthetic_120-108-050_stretch_1.00": {
+    "source": "bass_synthetic_120-108-050",
+    "variation": "stretch",
+    "interval": 1.0
+  },
+  "organ_electronic_120-050-127_stretch_0.50": {
+    "source": "organ_electronic_120-050-127",
+    "variation": "stretch",
+    "interval": 0.5
+  },
+  "organ_electronic_120-050-127_stretch_1.00": {
+    "source": "organ_electronic_120-050-127",
+    "variation": "stretch",
+    "interval": 1.0
+  },
+  "guitar_electronic_021-026-025_stretch_0.50": {
+    "source": "guitar_electronic_021-026-025",
+    "variation": "stretch",
+    "interval": 0.5
+  },
+  "guitar_electronic_021-026-025_stretch_1.00": {
+    "source": "guitar_electronic_021-026-025",
+    "variation": "stretch",
+    "interval": 1.0
+  },
+  "organ_electronic_011-079-075_stretch_0.50": {
+    "source": "organ_electronic_011-079-075",
+    "variation": "stretch",
+    "interval": 0.5
+  },
+  "organ_electronic_011-079-075_stretch_1.00": {
+    "source": "organ_electronic_011-079-075",
+    "variation": "stretch",
+    "interval": 1.0
+  },
+  "keyboard_electronic_089-044-100_stretch_0.50": {
+    "source": "keyboard_electronic_089-044-100",
+    "variation": "stretch",
+    "interval": 0.5
+  },
+  "keyboard_electronic_089-044-100_stretch_1.00": {
+    "source": "keyboard_electronic_089-044-100",
+    "variation": "stretch",
+    "interval": 1.0
+  },
+  "guitar_acoustic_001-082-050_squish_0.50": {
+    "source": "guitar_acoustic_001-082-050",
+    "variation": "squish",
+    "interval": 0.5
+  },
+  "guitar_acoustic_001-082-050_squish_1.00": {
+    "source": "guitar_acoustic_001-082-050",
+    "variation": "squish",
+    "interval": 1.0
+  },
+  "bass_synthetic_120-108-050_squish_0.50": {
+    "source": "bass_synthetic_120-108-050",
+    "variation": "squish",
+    "interval": 0.5
+  },
+  "bass_synthetic_120-108-050_squish_1.00": {
+    "source": "bass_synthetic_120-108-050",
+    "variation": "squish",
+    "interval": 1.0
+  },
+  "organ_electronic_120-050-127_squish_0.50": {
+    "source": "organ_electronic_120-050-127",
+    "variation": "squish",
+    "interval": 0.5
+  },
+  "organ_electronic_120-050-127_squish_1.00": {
+    "source": "organ_electronic_120-050-127",
+    "variation": "squish",
+    "interval": 1.0
+  },
+  "guitar_electronic_021-026-025_squish_0.50": {
+    "source": "guitar_electronic_021-026-025",
+    "variation": "squish",
+    "interval": 0.5
+  },
+  "guitar_electronic_021-026-025_squish_1.00": {
+    "source": "guitar_electronic_021-026-025",
+    "variation": "squish",
+    "interval": 1.0
+  },
+  "organ_electronic_011-079-075_squish_0.50": {
+    "source": "organ_electronic_011-079-075",
+    "variation": "squish",
+    "interval": 0.5
+  },
+  "organ_electronic_011-079-075_squish_1.00": {
+    "source": "organ_electronic_011-079-075",
+    "variation": "squish",
+    "interval": 1.0
+  },
+  "keyboard_electronic_089-044-100_squish_0.50": {
+    "source": "keyboard_electronic_089-044-100",
+    "variation": "squish",
+    "interval": 0.5
+  },
+  "keyboard_electronic_089-044-100_squish_1.00": {
+    "source": "keyboard_electronic_089-044-100",
+    "variation": "squish",
+    "interval": 1.0
+  }
+}
